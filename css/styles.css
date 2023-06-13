@@ -1,3 +1,15 @@
+body {
+    font-family: "Roboto", "Arial", sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.site-nav-list {
+    list-style: none;
+    color: #000  ;
+}
+ 
+ /* SITE HEADER */
 .site-header {
 font-size: 13px;
 line-height: 16px;
@@ -5,10 +17,14 @@ letter-spacing: 1px;
 text-decoration: none;
 }
 
+
 .site-sahifa {
+    color: #000;
     text-decoration: none;
 }
 
+
+/* NAV NAV */
 .nav-text {
     background-color: #ff7500;
     color: #fff;
@@ -20,16 +36,48 @@ text-decoration: none;
     background-color: #ff7500;
 }
 
+/* FEATURE */
+.feature-haeding {
+    width: 440px;
+    font-size: 72px;
+    line-height: 72px;
+    font-family: "Roboto Consendent","Roboto" "Arial", sans-serif;
+}
+
+.feature-title {
+    font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.5px;
+font-family: "Roboto Consendent","Roboto" "Arial", sans-serif;
+}
+
+.feature-title {
+    list-style: none;
+}
+
+.feature-text {
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.5px;
+}
+ 
+/* HERO */
 .hero-class {
 font-size: 40px;
 Line height: 48px;
 letter-spacing: 0.5px; 
+font-family: "Roboto Condensed", "Arial", sans-serif;
 }
 
-.p-class {
+.hero-text {
+    width: 400px;
     Font size: 16px;
 line-height: 24px;
 Letter spacing: 0.5px;
+}
+
+.hero-section {
+    background-color: #252420;
 }
 
 .div-class {
@@ -47,7 +95,10 @@ Letter spacing: 0.5px;
     font-size: 40px;
     line-height: 48px;
     letter-spacing: 0.5px;
+    font-family: "Roboto Consendent","Roboto" "Arial", sans-serif;
 }
+
+/* AKSIYA */
 .content-text {
     width: 440px;
     font-size: 16px;
@@ -64,29 +115,13 @@ Letter spacing: 0.5px;
     color: #fff;
 }
 
-.feature-haeding {
-    width: 440px;
-    font-size: 72px;
-    line-height: 72px;
-}
-
+/* SITE FOOTER */
 .icon-rasmlari {
 width: 100px;    
 height: 100px;
  background-color:rgba(255, 117, 0, 0.2)
 }
 
-.feature-title {
-    font-size: 24px;
-line-height: 29px;
-letter-spacing: 0.5px;
-}
-
-.feature-text {
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.5px;
-}
 
 .site-footer-bg {
     background-color: #f8f8f8;
@@ -98,15 +133,17 @@ letter-spacing: 0.5px;
 
 .rectangle {
     background-color: #252420;
-    width: 1325px;
+    width: 1320px;
     height: 2px;
 }
 
 .ul-footer {
     list-style: none;
+    width: 224px;
+    line-height: 19px;
 }
 
-.img-footer {
+.site-footer-links {
     text-decoration: none;
     font-size: 16px;
     line-height: 19px;
