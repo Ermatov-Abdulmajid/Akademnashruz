@@ -1,0 +1,115 @@
+.site-header {
+font-size: 13px;
+line-height: 16px;
+letter-spacing: 1px;
+text-decoration: none;
+}
+
+.site-sahifa {
+    text-decoration: none;
+}
+
+.nav-text {
+    background-color: #ff7500;
+    color: #fff;
+}
+
+.orange-class {
+    width: 80px;
+    height: 3px;
+    background-color: #ff7500;
+}
+
+.hero-class {
+font-size: 40px;
+Line height: 48px;
+letter-spacing: 0.5px; 
+}
+
+.p-class {
+    Font size: 16px;
+line-height: 24px;
+Letter spacing: 0.5px;
+}
+
+.div-class {
+    background-color: #252420;
+    color: #fff;
+}
+
+.main-class {
+    background-color: #252420;
+    color: #fff;
+}
+
+.main-heading {
+    width: 375px;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.5px;
+}
+.content-text {
+    width: 440px;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.content-strong {
+    color: #ff7500;
+}
+
+.br-class {
+    background-color: #ff7500;
+    color: #fff;
+}
+
+.feature-haeding {
+    width: 440px;
+    font-size: 72px;
+    line-height: 72px;
+}
+
+.icon-rasmlari {
+width: 100px;    
+height: 100px;
+ background-color:rgba(255, 117, 0, 0.2)
+}
+
+.feature-title {
+    font-size: 24px;
+line-height: 29px;
+letter-spacing: 0.5px;
+}
+
+.feature-text {
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0.5px;
+}
+
+.site-footer-bg {
+    background-color: #f8f8f8;
+}
+
+.img-footer {
+    text-decoration: none;
+}
+
+.rectangle {
+    background-color: #252420;
+    width: 1325px;
+    height: 2px;
+}
+
+.ul-footer {
+    list-style: none;
+}
+
+.img-footer {
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 19px;
+}
+ 
+
