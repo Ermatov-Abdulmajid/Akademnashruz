@@ -4,13 +4,41 @@ body {
     letter-spacing: 0.5px;
 }
 
+.site-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-link {
+    transition: opacity 0.4s ease;
+}
+
+.site-logosi:hover {
+    opacity: 80%;
+}
+
+.site-logosi:active {
+    opacity: 60%;
+}
+
+
+.heading-nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .site-nav-list {
     list-style: none;
-    color: #000  ;
-}
+    color: #000;
+}   
+
+
  
  /* SITE HEADER */
 .site-header {
+    display: flex;
 font-size: 13px;
 line-height: 16px;
 letter-spacing: 1px;
@@ -21,6 +49,16 @@ text-decoration: none;
 .site-sahifa {
     color: #000;
     text-decoration: none;
+    transition:color 0.4s ease  opacity: 60%;;
+}
+
+.site-sahifa:hover {
+    transition:color 0.4s ease;
+    color: #ff7500;
+}
+
+.site-sahifa:active {
+    opacity: 60%;
 }
 
 
@@ -28,7 +66,17 @@ text-decoration: none;
 .nav-text {
     background-color: #ff7500;
     color: #fff;
+    transition: opacity 0.4s ease;
 }
+
+.nav-text:hover {
+    opacity: 80%;
+}
+
+.nav-text:active {
+    opacity: 60%;
+}
+
 
 .orange-class {
     width: 80px;
@@ -37,31 +85,39 @@ text-decoration: none;
 }
 
 /* FEATURE */
-.feature-haeding {
-    width: 440px;
-    font-size: 72px;
-    line-height: 72px;
-    font-family: "Roboto Consendent","Roboto" "Arial", sans-serif;
+.feature-class {
+    font-size: 40px;
+    Line height: 48px;
+    letter-spacing: 0.5px; 
+    font-family: "Roboto Condensed", "Arial", sans-serif;
 }
 
-.feature-title {
-    font-size: 24px;
-line-height: 29px;
-letter-spacing: 0.5px;
-font-family: "Roboto Consendent","Roboto" "Arial", sans-serif;
+
+.feature-img {
+    background-color: rgba(255, 117, 0, 0.2);
 }
 
-.feature-title {
+.feature-icons {
+    display: flex;
+    justify-content: space-between;
     list-style: none;
 }
 
-.feature-text {
-font-size: 16px;
-line-height: 24px;
-letter-spacing: 0.5px;
+.feature-title {
+    text-decoration: none;
+    color: #000;
+    font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
 }
- 
+
+
 /* HERO */
+.hero {
+    background-color: #252420;
+    display: flex;
+    justify-content: space-between;
+}
+   
+
 .hero-class {
 font-size: 40px;
 Line height: 48px;
@@ -76,29 +132,40 @@ line-height: 24px;
 Letter spacing: 0.5px;
 }
 
-.hero-section {
-    background-color: #252420;
-}
 
 .div-class {
     background-color: #252420;
     color: #fff;
 }
 
-.main-class {
+
+/* AKSIYA */
+.aksiya-heading {
     background-color: #252420;
     color: #fff;
+    display: flex;
+    justify-content: space-between;
 }
 
-.main-heading {
+
+.aksiya {
     width: 375px;
     font-size: 40px;
     line-height: 48px;
     letter-spacing: 0.5px;
     font-family: "Roboto Consendent","Roboto" "Arial", sans-serif;
+    display: flex;
+    justify-content: space-between;
 }
 
-/* AKSIYA */
+
+.aksiya-secion {
+    background-color: #252420;
+    color: #fff;
+}
+
+
+/* CONTENT */
 .content-text {
     width: 440px;
     font-size: 16px;
@@ -106,36 +173,50 @@ Letter spacing: 0.5px;
     letter-spacing: 0.5px;
 }
 
+
 .content-strong {
     color: #ff7500;
 }
 
-.br-class {
+
+/*  FOOTER */
+
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.footer-social {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    transition: 0.4s ease;
+}
+.footer-social:hover {
+    opacity: 0.8;
     background-color: #ff7500;
-    color: #fff;
 }
 
-/* SITE FOOTER */
-.icon-rasmlari {
-width: 100px;    
-height: 100px;
- background-color:rgba(255, 117, 0, 0.2)
+.footer-social:active {
+    opacity: 0.6;
 }
 
 
-.site-footer-bg {
-    background-color: #f8f8f8;
+.icon-footer {
+    list-style: none;
 }
 
-.img-footer {
-    text-decoration: none;
+
+.site-footer-bottom {
+    display: flex;
 }
 
-.rectangle {
-    background-color: #252420;
-    width: 1320px;
-    height: 2px;
-}
 
 .ul-footer {
     list-style: none;
@@ -143,10 +224,29 @@ height: 100px;
     line-height: 19px;
 }
 
+
+.rectangle {
+    background-color: #252420;
+    width: 1320px;
+    height: 2px;
+}
+
+
 .site-footer-links {
     text-decoration: none;
     font-size: 16px;
     line-height: 19px;
+    color: #252420;
+    transition:color 0.4s ease;
 }
+.site-footer-links:hover {
+    opacity: 80%;
+    color: #ff7500;
+}
+
+.site-footer-links:active {
+    opacity: 60%;
+}
+
  
 
