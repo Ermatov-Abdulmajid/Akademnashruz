@@ -13,6 +13,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: 5px solid #ff7500;
+    padding-left: 170px;
+    padding-right: 170px;
 }
 
 
