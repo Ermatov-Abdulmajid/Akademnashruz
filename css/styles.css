@@ -74,7 +74,6 @@ body {
     list-style: none;
     color: #000;
     margin: 0px;   
-    margin: 32px;
 }
 
 
@@ -90,8 +89,11 @@ body {
 
 .site-sahifa {
     color: #000;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase; color: #000;
     text-decoration: none;
-    text-transform: uppercase;
     transition:color 0.4s ease  opacity: 60%;;
 }
 
@@ -107,8 +109,11 @@ body {
 
 /* NAV NAV */
 .nav-link {
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
     background-color: #ff7500;
-    color: #ffffff;
     text-decoration: none;
     border-radius: 4px;
     padding: 12px 24px;
@@ -172,8 +177,11 @@ padding-bottom: 44px
 }
 
 .hero-link {
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
     background-color: #ff7500;
-    color: #fff;
     text-decoration: none;
     border-radius: 4px;
     padding: 12px 24px;
@@ -191,8 +199,9 @@ padding-bottom: 44px
 .hero-img {
     width: 510px;
     height: 510px;
+    margin-top: 40px;
     border-radius: 8px;
-    box-shadow: 24px 24px 0px 0px rgba(255, 117, 0, 0.60);;
+    box-shadow: 24px 24px 0px 0px rgba(255, 117, 0, 0.60);
 }
 
 
@@ -251,12 +260,13 @@ padding-bottom: 44px
 .feature-title {
     text-decoration: none;
     color: #000;
+    margin: 0px ;
     padding-bottom: 12px;
     font-family: "Roboto Condensed", "Roboto", "Arial", sans-serif;
 }
 
 .feature-text {
-    margin-right: 66px;
+    padding-right: 66px;
 }
 
 
@@ -322,12 +332,15 @@ padding-bottom: 44px
 
 
 .aksiya-link {
-    text-decoration: none;
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
     background-color: #ff7500;
-    color: #fff;
+    text-decoration: none;
     border-radius: 4px;
     padding: 12px 24px;
-    transition: opacity 0.4s ease;
+    transition: color 0.4s ease;
 }
 
 .aksiya-link:hover {
@@ -399,6 +412,7 @@ padding-bottom: 44px
 
 .site-footer-bottom {
     display: flex;
+    justify-content: space-around;
 }
 
 .site-footer-li {
@@ -419,20 +433,19 @@ padding-bottom: 44px
 
 .rectangle {
     background-color: #252420;
-    width: 1100px;
+    width: 1060px;
     height: 2px;
     border: 0px;
     margin-top: 40px;
     margin-bottom: 68px;
 }
 
-
 .site-footer-links {
     text-decoration: none;
     font-size: 16px;
     line-height: 19px;
+    margin-right: 68px;
     color: #252420;
-    padding: 0px;
     list-style: none;
     transition:color 0.4s ease;
 }
@@ -447,6 +460,3 @@ padding-bottom: 44px
 .site-footer-links:active {
     opacity: 60%;
 }
-
- 
-
