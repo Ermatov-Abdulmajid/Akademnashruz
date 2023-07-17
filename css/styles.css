@@ -1,3 +1,8 @@
+:root {
+    --accent-color: #ff7500;
+    --text-font:;
+}
+
 * {
     padding: 0px;
     margin: 0px;
@@ -11,11 +16,11 @@ body {
     font-size: 16px;
     letter-spacing: 0.5px;
     padding: 0px;
-    border: opx;
+    border: 0px;
 }
 
 *:focus{
-    outline: 2px dotted #ff7500;
+    outline: 2px dotted var(--accent-color);
 }
 
 
@@ -55,10 +60,9 @@ body {
 }
 
 
- 
  /* SITE HEADER */
- .site-header {
-    border-top: 5px solid #ff7500;
+.site-header {
+    border-top: 5px solid var(--accent-color);
     background-color: #fff;
     padding-top: 16px;
     padding-bottom: 16px;
@@ -94,12 +98,12 @@ body {
     letter-spacing: 1px;
     text-transform: uppercase; color: #000;
     text-decoration: none;
-    transition:color 0.4s ease  opacity: 60%;;
+    transition:color 0.4s ease;
 }
 
 .site-sahifa:hover {
     transition:color 0.4s ease;
-    color: #ff7500;
+    color: var(--accent-color);
 }
 
 .site-sahifa:active {
@@ -113,7 +117,7 @@ body {
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.5px;
-    background-color: #ff7500;
+    background-color: var(--accent-color);
     text-decoration: none;
     border-radius: 4px;
     padding: 12px 24px;
@@ -146,7 +150,7 @@ body {
 }
 
 .hero-hr {
-    background-color: #ff7500;
+    background-color: var(--accent-color);
     width: 80px;
     height: 3px;
     padding: 0px;
@@ -181,7 +185,7 @@ padding-bottom: 44px
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.5px;
-    background-color: #ff7500;
+    background-color: var(--accent-color);
     text-decoration: none;
     border-radius: 4px;
     padding: 12px 24px;
@@ -221,7 +225,7 @@ padding-bottom: 44px
 }
 
 .feature-hr {
-    background-color: #ff7500;
+    background-color: var(--accent-color);
     width: 80px;
     height: 3px;
     border: 0px;
@@ -336,7 +340,7 @@ padding-bottom: 44px
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 0.5px;
-    background-color: #ff7500;
+    background-color: var(--accent-color);
     text-decoration: none;
     border-radius: 4px;
     padding: 12px 24px;
@@ -358,7 +362,7 @@ padding-bottom: 44px
     }
 
 .content-strong {
-    color: #ff7500;
+    color: var(--accent-color);
 }
 
 
@@ -400,7 +404,7 @@ padding-bottom: 44px
 
 .icons-footer:hover {
     opacity: 0.8;
-    background-color: #ff7500;
+    background-color: var(--accent-color);
 }
 
 
@@ -453,7 +457,7 @@ padding-bottom: 44px
 
 .site-footer-links:hover {
     opacity: 80%;
-    color: #ff7500;
+    color: var(--accent-color);
 }
 
 
