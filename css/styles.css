@@ -60,7 +60,7 @@ body {
 }
 
 
- /* SITE HEADER */
+/* SITE HEADER */
 .site-header {
     border-top: 5px solid var(--accent-color);
     background-color: #fff;
@@ -134,11 +134,14 @@ body {
 
 /* HERO */
 .hero { 
+    padding-top: 80px;
+    padding-bottom: 80px;
     background-color: #252420;
     color: #fff;
 }
 
 .hero-container {
+    position: relative;
     max-width: 1100px;
     margin-left: 170px;
     margin-right: 170px;
@@ -160,24 +163,26 @@ body {
 }
 
 .hero-heading {
-color: #FFF;
-font-size: 40px;
-font-family: "Roboto Condensed";
-font-weight: 700;
-line-height: 120%;
-letter-spacing: 0.5px;
-margin-bottom: 0px;
-padding: 0px;
-padding-bottom: 24px;
+    color: #FFF;
+    font-size: 40px;
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-bottom: 24px;
 }
 
 .hero-text {
- color: #FFF;
-font-size: 16px;
-letter-spacing: 0.5px;
-margin-bottom: 0px;
-padding: 0px;
-padding-bottom: 44px
+    color: #fff;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+    letter-spacing: 0.5px;
+    padding-top: 0;
+    padding-bottom: 44px
 }
 
 .hero-link {
@@ -201,13 +206,14 @@ padding-bottom: 44px
 }
 
 .hero-img {
+    position: absolute;
+    top: -40px;
+    right: 0;
     width: 510px;
     height: 510px;
-    margin-top: 40px;
     border-radius: 8px;
     box-shadow: 24px 24px 0px 0px rgba(255, 117, 0, 0.60);
 }
-
 
 /* FEATURE */
 .feature-section {
@@ -276,8 +282,8 @@ padding-bottom: 44px
 
 /* AKSIYA */
 .promo {
-  padding-top: 120px;  
-  padding-bottom: 160px;
+    margin-top: 120px;  
+    margin-bottom: 160px;
 }
 
 .aksiya-heading {
@@ -287,9 +293,12 @@ padding-bottom: 44px
 }
 
 .aksiya-promo {
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
     padding-left: 64px;
     padding-right: 64px;
 }
@@ -300,15 +309,14 @@ padding-bottom: 44px
     margin-right: auto;
 }
 
-.aksiya {
-    width: 375px;
+.aksiya-title {
+    width: 383px;
     font-size: 40px;
     line-height: 48px;
-    margin: 0%;
-    margin-top: 64px;
-    margin-bottom: 12px;
+    margin-top: 0;
+    margin-bottom: 24px;
     letter-spacing: 0.5px;
-    font-family: "Roboto Consendent","Roboto" "Arial", sans-serif;
+    font-family: "Roboto Condensed", "Arial", sans-serif;
 }
 
 .content-text-1 {
@@ -321,7 +329,6 @@ padding-bottom: 44px
     padding-bottom: 12px;
 }
 
-
 .content-text {
     width: 440px;
     font-size: 16px;
@@ -333,7 +340,6 @@ padding-bottom: 44px
 .content-text:last-child {
     margin-bottom: 0%;
 }
-
 
 .aksiya-link {
     color: #FFF;
@@ -356,10 +362,13 @@ padding-bottom: 44px
 }
 
 .aksiya-img {
+    position: absolute;
+    right: 64px;
+    bottom: 64px;
     width: 440px;
     height: 440px;
     border-radius: 12px;
-    }
+}
 
 .content-strong {
     color: var(--accent-color);
